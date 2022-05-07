@@ -1,14 +1,27 @@
-# Shark Attack! - A Guessing Game by Gabe Vela
+# CB App! - A Project Management App by Gabe Vela
 
-![clone](https://imgur.com/0Rk0jiF.png)
+<br>
 
-![clone](https://imgur.com/2EW6FiG.png)
+## For Unit Two, I will design and code a Project Management app. It will be simple to begin with, but I want to code the app so that I can enhance the appearance and overall design/feel at a later time, most likely with Bootstrap.
+<br><br>
+
+## Click to see <em><a href="https://lucid.app/lucidspark/36aa690e-b7b8-4191-907b-5125563714af/edit?invitationId=inv_2c51c34b-de00-4f02-be1f-ad6d280c6e17">see the current wireframe</a> in the works.</em> 
+
+## Click to <em><a href="https://trello.com/invite/b/tBP2QxLy/337f4545e7152dd26d38970953fa619e/project-2-ga-sei">see my Trello board</a>.</em>
+
+## Click to <em><a href="https://lucid.app/lucidchart/3c66bc3b-1fe1-43e1-a841-64126041ef4e/edit?invitationId=inv_9aec31c3-1b09-4417-9655-d2ee9219eef8">see my Entity Relationship Diagram</a>.</em>
 
 <br><br>
 
-## I do not own the music, sounds or images in this game, credits go to the respective author/owner.
+![clone](https://imgur.com/57s8NLB.png)
 
 <br>
+
+<!-- ![clone](https://imgur.com/2EW6FiG.png) -->
+
+<br>
+
+<!-- <br>
 
 ### Images, vectors. <em><a href="https://www.vecteezy.com/free-vector/deep-ocean">Credits</a>.</em>
 ### Audio, music. <em><a href="https://www.zapsplat.com/">Credits</a>.</em>
@@ -146,4 +159,4 @@ And also...
 
 ### Donations starting as low as $500 USD weekly!
 
-### Subscribe to weekly donations and receive a $25 USD coupon for your next purchase of $3,000.00 USD or more!
+### Subscribe to weekly donations and receive a $25 USD coupon for your next purchase of $3,000.00 USD or more! -->
