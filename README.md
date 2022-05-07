@@ -5,7 +5,7 @@
 ## For Unit Two, I will design and code a Project Management app. It will be simple to begin with, but I want to code the app so that I can enhance the appearance and overall design/feel at a later time, most likely with Bootstrap.
 <br><br>
 
-## Click to see <em><a href="https://lucid.app/lucidspark/36aa690e-b7b8-4191-907b-5125563714af/edit?invitationId=inv_2c51c34b-de00-4f02-be1f-ad6d280c6e17" target="_blank">see the current wireframe</a> in the works.</em> 
+## Click to see <em><a href="https://lucid.app/lucidspark/36aa690e-b7b8-4191-907b-5125563714af/edit?invitationId=inv_2c51c34b-de00-4f02-be1f-ad6d280c6e17" target="_blank" >see the current wireframe</a> in the works.</em> 
 
 ## Click to <em><a href="https://trello.com/invite/b/tBP2QxLy/337f4545e7152dd26d38970953fa619e/project-2-ga-sei" target="_blank">see my Trello board</a>.</em>
 
