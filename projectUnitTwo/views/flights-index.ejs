@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights Index</title>
+</head>
+
+<body>
+    <h1>Flights Index</h1>
+    <td> <a href="/flights/new"> <button>Add a new flight</button> </a> </td>
+    <!-- <td> <a href="/flights"> <button>Flight Index Page</button> </a> </td><br><br> -->
+    <table>
+        <thead>
+            <tr>
+                <th>Airline</th>
+                <th>Airport</th>
+                <th>Flight Number</th>
+                <th>Departs</th>
+                <th>Link to flights details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <% flights.forEach(function(f){ %>
+                    <td><%= f.airline %></td>
+                    <td><%= f.airport %></td>
+                    <td><%= f.flightNumber %></td>
+                    <td><%= f.departs %></td>
+                    <td> <a href="/flights/<%=f._id %>"> <button>Flights Details</button> </a> </td>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</body>
+
+</html>
