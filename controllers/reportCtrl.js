@@ -5,8 +5,8 @@ let ReportModel = require('../models/report');
 async function index(req, res) { 
     let reports = await ReportModel.find();
     console.log('reports', reports);
-    res.send('testing');
-    //res.render('reports-index.ejs', {reports});
+    //res.send('testing');
+    res.render('reports-index.ejs', {reports});
 };
 
 function newReport(req, res, next) {
