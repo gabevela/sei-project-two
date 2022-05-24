@@ -15,3 +15,7 @@ const reportSchema = new Schema({
     timeAndDate: Date,
     additionalInfo: [infoSchema] 
 });
+
+let reportModel = mongoose.model('Report', reportSchema);
+
+module.exports = reportModel;

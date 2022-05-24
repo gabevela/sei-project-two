@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
  mongoose.connect('mongodb://localhost/trafficSafety', {
-    useNewUrlPartser: true,
+    useNewUrlParser: true,
     useUnifiedTopology:true
  });
 
