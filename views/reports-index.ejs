@@ -8,8 +8,8 @@
     <title>Reports Index</title>
 </head>
 <body>
-    <h2>Reports Index</h2>
-    <td> <a href="/reports/new"> <button>Create a report</button> </a> </td>
+    <h1>Reports Index</h1>
+    <h2> Click <a href="/reports/new">HERE</a> to generate a new report. </h2><br>
     <table>
         <thead>
             <tr>
@@ -25,7 +25,7 @@
                     <td><%= r.reportType %></td>
                     <td><%= r.locationCoordinates %></td>
                     <td><%= r.timeAndDate %></td>
-                    <td> <a href="/reports/<%=r._id %>"> <button>Report Information</button> </a> </td>
+                    <td> <a href="/reports/<%=r._id %>">Report Information</a> </td>
             </tr>
             <% }) %>
         </tbody>
