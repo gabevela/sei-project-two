@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>New Report Form</title>
+</head>
+
+<body>
+    <h1>Enter new report</h1>
+
+    <form action="/reports" method="POST"><br>
+        <input  type="submit" value="Create Report"><br><br>
+        <label>Report Type:
+            <select name="reportType">
+                <option value="red">Red - Accident / Citation</option>
+                <option value="yellow">Yellow - Warning / Near miss</option>
+                <option value="green">Green - Proactive / Nice to have</option>
+                <option value="red">Purple - Other</option>
+            </select>
+        </label><br><br>
+        <label>Location Coordinates:
+            <input type="text" name="locationCoordinates">
+        </label><br><br>
+        <label>Time & Date:
+            <input type="datetime-local" name="timeAndDate">
+    </form>
+</body>
+
+</html>
