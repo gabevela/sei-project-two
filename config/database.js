@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
  mongoose.connect('mongodb://localhost/trafficSafety', {
     useNewUrlPartser: true,
     useUnifiedTopology:true
@@ -7,5 +8,5 @@ const mongoose = require('mongoose');
  const db = mongoose.connection;
 
  db.on('connected', function(){
-    console.log(`Connected to MongoDB at ${db.host}:${db.port}`)
+    console.log(`Connected to MongoDB at ${db.host}:${db.port}`);
  });
