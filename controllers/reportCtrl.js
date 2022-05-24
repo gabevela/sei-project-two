@@ -1,5 +1,14 @@
 const reportModel = require("../models/report");
 
+let ReportModel = require('../models/report');
+
+async function index(req, res) { 
+    let reports = await ReportModel.find();
+    console.log('reports', reports);
+    res.send('testing');
+    //res.render('reports-index.ejs', {reports});
+};
+
 function newReport(req, res, next) {
   res.render('new.ejs');
 };
@@ -20,5 +29,6 @@ async function create(req, res, next) {
 
 module.exports = {
   newReport,
-  create
+  create, 
+  index
 };

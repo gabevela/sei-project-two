@@ -3,8 +3,11 @@ var router = express.Router();
 
 let reportCtrl = require('../controllers/reportCtrl');
 
+router.get('/', reportCtrl.index);
+
 router.get('/new', reportCtrl.newReport);
 
 router.post('/', reportCtrl.create);
 
 module.exports = router;
+
