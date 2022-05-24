@@ -22,8 +22,7 @@ async function create(req, res, next) {
   }
   
   await ReportModel.create(obj); 
-
-  res.send('testing the "create" function');
+  res.redirect('/reports');
 
 };
 
