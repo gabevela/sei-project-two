@@ -6,6 +6,7 @@ const Schema = mongoose.Schema;
 const infoSchema = new Schema({
     reportSubType: String,
     locationNotes: String,
+    reportNotes: String
 });
 
 const reportSchema = new Schema({
