@@ -13,7 +13,7 @@ const reportSchema = new Schema({
     reportType: String,
     locationCoordinates: [String],
     timeAndDate: Date,
-    additionalInfo: [infoSchema] 
+    additionalInfo: [infoSchema] // array of subdocuments 
 });
 
 let reportModel = mongoose.model('Report', reportSchema);

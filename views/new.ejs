@@ -7,19 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <title>New Report Form</title>
-</head>
+</head> 
 
 <body>
-    <h1>Enter a new report</h1>
-    <h2> <a href="/reports">Click here to CANCEL</a> </h2><br><br>
+    <h1>Enter a new Traffic Safety report</h1>
+    <h3> <a href="/reports">Click here to CANCEL</a> </h3><br><br>
 
     <form action="/reports" method="POST"><br>
         <label>Report Type:
             <select name="reportType">
-                <option value="red">Red - Accident / Citation</option>
-                <option value="yellow">Yellow - Warning / Near miss</option>
-                <option value="green">Green - Proactive / Nice to have</option>
-                <option value="red">Purple - Other</option>
+                <option value="RED">Red - Accident / Citation</option>
+                <option value="YELLOW">Yellow - Warning / Near miss</option>
+                <option value="GREEN">Green - Proactive / Nice to have</option>
+                <option value="PURPLE">Purple - Other</option>
             </select>
         </label><br><br>
         <label>Location Coordinates:

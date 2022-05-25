@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report details</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+    <h1>Report Details Page</h1>
+    <td> <a href="/reports"> <button>Reports Index Page</button> </a> </td><br><br>
+    <table>
+        <thead>
+            <tr>
+                <th>Report Type</th>
+                <th>Location / Coordinates</th>
+                <th>Time & Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                    <td><%= report.reportType %></td>
+                    <td><%= report.locationCoordinates %></td>
+                    <td><%= report.timeAndDate %></td>
+            </tr>
+            
+        </tbody>
+    </table><br><br><br>
+    <h2>Additional Information</h2>
+    <h4>Enter additional information</h4>
+    <form action="/reports/<%= report._id %>/additionalInfo" method="POST">
+        <label>Report Subtype:
+            <input type="text" name="reportSubType">
+        </label>
+        <br>
+        <label>Location Notes:
+            <input type="text" name="locationNotes">
+        </label>
+        <br>
+        <label>Report Notes:
+            <input type="text" name="reportNotes">
+        </label>
+        <br>
+        <input type="submit" value="Submit Additional Information">
+    </form>
+            <table>
+            <thead>
+                <tr>
+                    <th>Report Subtype</th>
+                    <th>Location Notes</th>
+                    <th>Report Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% report.additionalInfo.forEach(function(a){ %>
+                    <tr>
+                        <td><%= a.reportSubType %></td>
+                        <td><%= a.locationNotes %></td>
+                        <td><%= a.reportNotes %></td>
+                    </tr>
+                <% }); %>     
+            </tbody>
+        </table>
+</body>
+</html>
